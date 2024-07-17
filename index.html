@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Papper Scissor Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">
+        <h1>ROCK PAPPER SCISSORS GAME</h1>
+    </div>
+    
+    <div class="choices">
+        <div class="choice" id="rock">
+            <img src="rock.png" alt="rock">
+        </div>
+        <div class="choice" id="papper">
+            <img src="paper.png" alt="papper">
+        </div>
+        <div class="choice" id="scissors">
+            <img src="scissors.png" alt="scissors">
+        </div>
+    </div>
+
+    <div class="score">
+        <div class="user">
+            <p id="user-score">0</p>
+            <p>YOU</p>
+        </div>
+        <div class="comp">
+            <p id="comp-score">0</p>
+            <p>COMP</p>
+        </div>
+    </div>
+    <div class="options-chose">
+        <div class="op-ch-1 hide">
+            <p id="user-option"></p>
+        </div>
+        <div class="op-ch-2 hide">
+            <p id="comp-option"></p>
+        </div>
+    </div>
+
+    <div class="mssg-box">
+        <p class="mssg">Play your move</p>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
